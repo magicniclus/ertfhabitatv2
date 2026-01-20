@@ -128,7 +128,7 @@ const GoogleReviewsBanner = ({ placeId }: GoogleReviewsBannerProps) => {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <img 
-                  src="/google-logo.png" 
+                  src="/google-logo.jpeg" 
                   alt="Google" 
                   className="w-6 h-6"
                   onError={(e) => {

@@ -21,45 +21,44 @@ export default function Navigation() {
   const [showSectorsDropdown, setShowSectorsDropdown] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "07 83 49 01 36";
+  const phoneNumber = "07 83 93 86 94";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Travaux Fibre', href: '/services/travaux-fibre' },
-    { name: 'Fourreau Bouché', href: '/services/fourreau-bouche' },
-    { name: 'Détection de Point de Blocage', href: '/services/detection-blocage' },
-    { name: 'Raccordement Fibre Complexe', href: '/services/raccordement-complexe' },
-    { name: 'Urgence Fibre', href: '/services/urgence-fibre' },
+    { name: 'Isolation Thermique Extérieure', href: '/services/isolation-thermique-exterieure' },
+    { name: 'Isolation Thermique Intérieure', href: '/services/isolation-thermique-interieure' },
+    { name: 'Enduit de Façade', href: '/services/enduit-facade' },
+    { name: 'Ravalement', href: '/services/ravalement' },
+    { name: 'Bardage', href: '/services/bardage' },
   ];
 
-  // Liste des secteurs pour le dropdown
+  // Liste des villes pour le dropdown
   const sectorsLinks = [
-    { name: 'Paris (75)', href: '/secteur/fibre-paris-75' },
-    { name: 'Paris 15ème', href: '/secteur/fibre-paris-15' },
-    { name: 'Paris 14ème', href: '/secteur/fibre-paris-14' },
-    { name: 'Hauts-de-Seine (92)', href: '/secteur/fibre-hauts-de-seine-92' },
-    { name: 'Seine-Saint-Denis (93)', href: '/secteur/fibre-seine-saint-denis-93' },
-    { name: 'Val-de-Marne (94)', href: '/secteur/fibre-val-de-marne-94' },
-    { name: 'Val-d\'Oise (95)', href: '/secteur/fibre-val-d-oise-95' },
-    { name: 'Cergy', href: '/secteur/fibre-cergy' },
-    { name: 'Évry-Courcouronnes', href: '/secteur/fibre-evry-courcouronnes' },
-    { name: 'Meaux', href: '/secteur/fibre-meaux' },
-    { name: 'Voir tous nos secteurs', href: '/secteur' },
+    { name: 'Bordeaux', href: '/ville/bordeaux' },
+    { name: 'Le Bouscat', href: '/ville/le-bouscat' },
+    { name: 'Mérignac', href: '/ville/merignac' },
+    { name: 'Pessac', href: '/ville/pessac' },
+    { name: 'Talence', href: '/ville/talence' },
+    { name: 'Villenave-d\'Ornon', href: '#contact' },
+    { name: 'Gradignan', href: '#contact' },
+    { name: 'Bègles', href: '#contact' },
+    { name: 'Floirac', href: '#contact' },
+    { name: 'Cenon', href: '#contact' },
   ];
 
   // Navigation adaptative selon la page
   const navigationLinks = isHomePage ? [
     { name: 'Notre expertise', href: '#expertise' },
     { name: 'Services', href: '#services', hasDropdown: true, dropdownType: 'services' },
-    { name: 'Secteurs', href: '/secteur', hasDropdown: true, dropdownType: 'sectors' },
+    { name: 'Villes', href: '#contact', hasDropdown: true, dropdownType: 'sectors' },
     { name: 'Nos réalisations', href: '#realisations' },
   ] : [
     { name: 'Notre expertise', href: '/#expertise' },
     { name: 'Services', href: '/#services', hasDropdown: true, dropdownType: 'services' },
-    { name: 'Secteurs', href: '/secteur', hasDropdown: true, dropdownType: 'sectors' },
+    { name: 'Villes', href: '#contact', hasDropdown: true, dropdownType: 'sectors' },
     { name: 'Nos réalisations', href: '/#realisations' },
   ];
 
@@ -117,8 +116,8 @@ export default function Navigation() {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image 
-                  src="/logo.png" 
-                  alt="Logo RAFCOM" 
+                  src="/logo.jpeg" 
+                  alt="Logo ERTF" 
                   width={72} 
                   height={72} 
                   className="object-contain"
@@ -341,8 +340,8 @@ export default function Navigation() {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
-                    src="/logo.png" 
-                    alt="Logo RAFCOM" 
+                    src="/logo.jpeg" 
+                    alt="Logo ERTF" 
                     width={56} 
                     height={56} 
                     className="object-contain"

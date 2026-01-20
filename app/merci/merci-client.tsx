@@ -67,7 +67,7 @@ export default function MerciClient() {
               Nous avons bien reçu votre demande
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Notre équipe RAFCOM va étudier votre demande de travaux fibre optique et vous recontacter 
+              Notre équipe ERTF va étudier votre demande d'isolation thermique et façade et vous recontacter 
               dans les plus brefs délais pour établir un devis personnalisé et gratuit.
             </p>
           </motion.div>
@@ -109,9 +109,9 @@ export default function MerciClient() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.3 }}
           >
-            <h3 className="text-lg font-semibold text-orange-900 mb-3">Urgence fibre ?</h3>
+            <h3 className="text-lg font-semibold text-orange-900 mb-3">Besoin d'un devis rapide ?</h3>
             <p className="text-orange-800 mb-4">
-              Pour les interventions d'urgence fibre optique, contactez-nous directement :
+              Pour obtenir rapidement une estimation gratuite, contactez-nous directement :
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button
@@ -119,9 +119,9 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="tel:0783490136" className="flex items-center justify-center">
+                <a href="tel:0783938694" className="flex items-center justify-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  07 83 49 01 36
+                  07 83 93 86 94
                 </a>
               </Button>
               <Button
@@ -129,7 +129,7 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="mailto:contact@rafcomm.fr" className="flex items-center justify-center">
+                <a href="mailto:ertftravaux@gmail.com" className="flex items-center justify-center">
                   <Mail className="h-4 w-4 mr-2" />
                   Email
                 </a>
@@ -159,8 +159,8 @@ export default function MerciClient() {
               className="flex-1"
               asChild
             >
-              <Link href="/services/travaux-fibre">
-                Découvrir nos services fibre
+              <Link href="/#services">
+                Découvrir nos services
               </Link>
             </Button>
           </motion.div>

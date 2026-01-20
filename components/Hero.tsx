@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "RAFCOM - Spécialiste des travaux fibre optique",
-  description = "Travaux fibre optique en Île-de-France : débouchage de fourreaux, détection de points de blocage, raccordements complexes et interventions d'urgence. Un service professionnel et réactif dans votre secteur.",
+  title = "ERTF - Isolation et Façade",
+  description = "Entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
   bulletPoints = [
-    "Spécialiste fibre optique certifié",
-    "Expertise technique avancée",
-    "Intervention rapide en Île-de-France"
+    "EURL avec garantie décennale et RC",
+    "Équipe de 2 à 5 professionnels expérimentés",
+    "Intervention dans un rayon de 150 km"
   ],
   googleReviewsWidget
 }: HeroProps) {
@@ -126,8 +126,8 @@ export default function Hero({
         style={getBackgroundStyle()}
       >
         <Image
-          src="/bg.png"
-          alt="RAFCOM - Spécialiste Travaux Fibre Optique"
+          src="/bg.jpg"
+          alt="ERTF - Isolation Thermique et Façade"
           fill
           className="object-cover"
           priority

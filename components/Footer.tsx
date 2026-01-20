@@ -20,24 +20,21 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Travaux Fibre', href: '/services/travaux-fibre' },
-    { name: 'Fourreau Bouché', href: '/services/fourreau-bouche' },
-    { name: 'Détection de Point de Blocage', href: '/services/detection-blocage' },
-    { name: 'Raccordement Fibre Complexe', href: '/services/raccordement-complexe' },
-    { name: 'Urgence Fibre', href: '/services/urgence-fibre' },
+    { name: 'Isolation Thermique Extérieure', href: '/services/isolation-thermique-exterieure' },
+    { name: 'Isolation Thermique Intérieure', href: '/services/isolation-thermique-interieure' },
+    { name: 'Enduit de Façade', href: '/services/enduit-facade' },
+    { name: 'Ravalement', href: '/services/ravalement' },
+    { name: 'Bardage', href: '/services/bardage' },
   ];
 
-  const sectorsLinks = [
-    { name: 'Paris (75)', href: '/secteur/fibre-paris-75' },
-    { name: 'Seine-Maritime (76)', href: '/secteur/fibre-seine-maritime-76' },
-    { name: 'Seine-et-Marne (77)', href: '/secteur/fibre-seine-et-marne-77' },
-    { name: 'Yvelines (78)', href: '/secteur/fibre-yvelines-78' },
-    { name: 'Essonne (91)', href: '/secteur/fibre-essonne-91' },
-    { name: 'Hauts-de-Seine (92)', href: '/secteur/fibre-hauts-de-seine-92' },
-    { name: 'Seine-Saint-Denis (93)', href: '/secteur/fibre-seine-saint-denis-93' },
-    { name: 'Val-de-Marne (94)', href: '/secteur/fibre-val-de-marne-94' },
-    { name: 'Val-d\'Oise (95)', href: '/secteur/fibre-val-d-oise-95' },
-    { name: 'Voir tous nos secteurs', href: '/secteur' },
+  const zonesLinks = [
+    { name: 'Le Bouscat', href: '/ville/le-bouscat' },
+    { name: 'Bordeaux', href: '/ville/bordeaux' },
+    { name: 'Mérignac', href: '/ville/merignac' },
+    { name: 'Pessac', href: '/ville/pessac' },
+    { name: 'Talence', href: '/ville/talence' },
+    { name: 'Gironde (33)', href: '#contact' },
+    { name: 'Rayon de 150 km', href: '#contact' },
   ];
 
   return (
@@ -61,8 +58,8 @@ export default function Footer() {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
-                    src="/logo.png" 
-                    alt="Logo RAFCOM" 
+                    src="/logo.jpeg" 
+                    alt="Logo ERTF" 
                     width={56} 
                     height={56} 
                     className="object-contain"
@@ -70,13 +67,13 @@ export default function Footer() {
                 </motion.div>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes et urgences fibre en Île-de-France.
+                Spécialiste de l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI) et les travaux de façade en Gironde.
               </p>
               <a 
-                href="tel:0783490136" 
+                href="tel:0783938694" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 83 49 01 36
+                07 83 93 86 94
               </a>
             </motion.div>
 
@@ -127,7 +124,7 @@ export default function Footer() {
               </ul>
             </motion.div>
 
-            {/* Secteurs links */}
+            {/* Zones d'intervention */}
             <motion.div 
               className="space-y-4"
               initial={{ opacity: 0, y: 20 }}
@@ -135,15 +132,15 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-lg font-semibold">Nos Secteurs</h3>
+              <h3 className="text-lg font-semibold">Zones d'Intervention</h3>
               <ul className="space-y-2">
-                {sectorsLinks.map((sector) => (
-                  <li key={sector.name}>
+                {zonesLinks.map((zone) => (
+                  <li key={zone.name}>
                     <a
-                      href={sector.href}
+                      href={zone.href}
                       className="text-slate-300 hover:text-white text-sm transition-colors duration-200 hover:underline"
                     >
-                      {sector.name}
+                      {zone.name}
                     </a>
                   </li>
                 ))}
@@ -161,14 +158,14 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0783490136"
+                  href="tel:0783938694"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 83 49 01 36</span>
+                  <span>07 83 93 86 94</span>
                 </a>
                 <p className="text-slate-400 text-xs">
-                  Service gratuit 7j/7 de 9h à 19h
+                  Service gratuit 7j/7 de 8h à 19h
                 </p>
               </div>
             </motion.div>
@@ -186,7 +183,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} RAFCOM. Tous droits réservés.
+              © {currentYear} ERTF. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

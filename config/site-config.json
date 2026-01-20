@@ -1,46 +1,46 @@
 {
   "company": {
-    "name": "RAFCOM",
-    "legalName": "RAFCOM - Spécialiste des travaux fibre optique",
-    "address": "200 rue de la Croix Nivert, 75015 Paris",
-    "phone": "07 83 49 01 36",
-    "email": "contact@rafcomm.fr",
-    "siret": "991 943 010 00017",
-    "ceo": "Rafik Hamel"
+    "name": "ERTF",
+    "legalName": "ERTF - Isolation Thermique et Façade",
+    "address": "81 Boulevard Pierre 1er, 33110 Le Bouscat",
+    "phone": "07 83 93 86 94",
+    "email": "ertftravaux@gmail.com",
+    "siret": "",
+    "ceo": "Abdelkrim HAMDI"
   },
   "hero": {
-    "title": "RAFCOM - Spécialiste des travaux fibre optique",
-    "subtitle": "Travaux fibre, débouchage de fourreaux, détection de points de blocage, raccordements fibre complexes et interventions d'urgence fibre en Île-de-France. Un service professionnel et réactif pour tous vos besoins en télécommunications.",
+    "title": "ERTF - Isolation et Façade",
+    "subtitle": "Entreprise spécialisée dans l'isolation thermique par l'extérieur (ITE), l'isolation intérieure (ITI), les travaux d'enduit, le ravalement de façade et le bardage en Gironde.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
     "backgroundVideo": "/video.mp4",
     "bulletPoints": [
-      "Spécialiste fibre optique certifié",
-      "Expertise technique avancée",
-      "Intervention rapide en Île-de-France"
+      "EURL avec garantie décennale et RC",
+      "Équipe de 2 à 5 professionnels expérimentés",
+      "Intervention dans un rayon de 150 km"
     ]
   },
   "about": {
     "sections": [
       {
-        "smallTitle": "Notre expertise",
-        "title": "Spécialiste des travaux fibre optique",
-        "subtitle": "Expertise technique et réactivité garanties",
-        "content": "RAFCOM est votre partenaire de confiance pour tous vos travaux de fibre optique. Nous intervenons rapidement sur les débouchages de fourreaux, la détection de points de blocage, les raccordements fibre complexes et les urgences fibre. Notre expertise technique et notre réactivité nous permettent de résoudre efficacement tous vos problèmes de télécommunications.",
-        "image": "/about-1.png",
+        "smallTitle": "NOTRE EXPERTISE",
+        "title": "Isolation thermique",
+        "subtitle": "ITE et ITI de qualité",
+        "content": "ERTF est spécialisée dans l'isolation thermique par l'extérieur (ITE) et l'isolation intérieure (ITI). Nous accompagnons particuliers et professionnels dans la rénovation énergétique, en alliant performance, durabilité et esthétique. Grâce à notre équipe expérimentée et à l'utilisation de matériaux de qualité, nous garantissons des prestations conformes aux normes en vigueur.",
+        "image": "/about-1.jpeg",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
-        "buttonText": "Voir nos services",
-        "buttonHref": "#services",
+        "buttonText": "Voir nos réalisations",
+        "buttonHref": "#realisations",
         "reversed": false
       },
       {
-        "smallTitle": "Nos spécialités",
-        "title": "Solutions fibre optique complètes",
-        "subtitle": "Intervention rapide et solutions techniques adaptées",
-        "content": "Ce qui nous distingue, c'est notre expertise technique, notre réactivité et notre capacité à résoudre les problèmes les plus complexes. Chaque intervention est pour nous une nouvelle occasion de démontrer notre savoir-faire en matière de télécommunications. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur des télécoms.",
-        "image": "/about-2.png",
+        "smallTitle": "NOS SPÉCIALITÉS",
+        "title": "Ravalement et façade",
+        "subtitle": "Embellissement et protection",
+        "content": "Nous réalisons tous vos travaux d'enduit, ravalement de façade et bardage en Gironde. Que ce soit pour rénover votre façade ou moderniser votre extérieur, ERTF vous apporte des solutions sur mesure pour un confort durable et des économies d'énergie. Notre expertise de 4 ans en tant que conducteur de travaux garantit un résultat professionnel.",
+        "image": "/about-2.jpeg",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
         "buttonText": "Contactez-nous",
@@ -50,127 +50,212 @@
     ]
   },
   "gallery": {
-    "title": "Nos Interventions",
-    "subtitle": "Découvrez nos interventions de travaux fibre, débouchage de fourreaux et raccordements complexes en Île-de-France",
+    "title": "Nos Réalisations",
+    "subtitle": "Découvrez nos derniers chantiers d'isolation et façade en Gironde",
     "initialDisplayCount": 4,
     "images": [
       {
-        "src": "/images-clients/1.jpg",
-        "alt": "Intervention RAFCOM - Travaux fibre optique",
-        "title": "Installation fibre optique"
+        "src": "/chantiers/1.jpeg",
+        "alt": "Chantier isolation thermique",
+        "title": "Isolation thermique - Gironde"
       },
       {
-        "src": "/images-clients/2.jpg",
-        "alt": "Intervention RAFCOM - Débouchage fourreaux",
-        "title": "Débouchage de fourreaux télécommunications"
+        "src": "/chantiers/2.jpeg",
+        "alt": "Chantier façade",
+        "title": "Ravalement façade - Bordeaux"
       },
       {
-        "src": "/images-clients/3.jpg",
-        "alt": "Intervention RAFCOM - Détection blocage",
-        "title": "Détection de point de blocage"
+        "src": "/chantiers/3.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Le Bouscat"
       },
       {
-        "src": "/images-clients/4.jpg",
-        "alt": "Intervention RAFCOM - Raccordement complexe",
-        "title": "Raccordement fibre complexe"
+        "src": "/chantiers/4.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Mérignac"
       },
       {
-        "src": "/images-clients/5.jpg",
-        "alt": "Intervention RAFCOM - Urgence fibre",
-        "title": "Intervention d'urgence fibre"
+        "src": "/chantiers/5.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit façade - Pessac"
       },
       {
-        "src": "/images-clients/6.jpg",
-        "alt": "Intervention RAFCOM - Maintenance fibre",
-        "title": "Maintenance réseau fibre optique"
+        "src": "/chantiers/6.jpeg",
+        "alt": "Chantier bardage",
+        "title": "Bardage - Talence"
       },
       {
-        "src": "/images-clients/7.jpg",
-        "alt": "Intervention RAFCOM - Installation technique",
-        "title": "Installation technique spécialisée"
+        "src": "/chantiers/7.jpeg",
+        "alt": "Chantier rénovation",
+        "title": "Rénovation - Villenave-d'Ornon"
       },
       {
-        "src": "/images-clients/8.jpg",
-        "alt": "Intervention RAFCOM - Réparation fibre",
-        "title": "Réparation réseau fibre optique"
+        "src": "/chantiers/8.jpeg",
+        "alt": "Chantier isolation extérieure",
+        "title": "ITE - Gradignan"
       },
       {
-        "src": "/images-clients/9.jpg",
-        "alt": "Intervention RAFCOM - Diagnostic réseau",
-        "title": "Diagnostic technique réseau"
+        "src": "/chantiers/9.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Bègles"
       },
       {
-        "src": "/images-clients/10.jpg",
-        "alt": "Intervention RAFCOM - Solutions fibre",
-        "title": "Solutions fibre optique avancées"
+        "src": "/chantiers/10.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Floirac"
       },
       {
-        "src": "/images-clients/11.jpeg",
-        "alt": "Intervention RAFCOM - Travaux fibre spécialisés",
-        "title": "Travaux fibre optique spécialisés"
+        "src": "/chantiers/11.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Cenon"
       },
       {
-        "src": "/images-clients/12.jpeg",
-        "alt": "Intervention RAFCOM - Débouchage technique",
-        "title": "Débouchage technique de fourreaux"
+        "src": "/chantiers/12.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Lormont"
       },
       {
-        "src": "/images-clients/13.jpeg",
-        "alt": "Intervention RAFCOM - Installation réseau",
-        "title": "Installation réseau fibre optique"
+        "src": "/chantiers/13.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Blanquefort"
       },
       {
-        "src": "/images-clients/14.jpeg",
-        "alt": "Intervention RAFCOM - Maintenance préventive",
-        "title": "Maintenance préventive fibre"
+        "src": "/chantiers/14.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Eysines"
       },
       {
-        "src": "/images-clients/15.jpeg",
-        "alt": "Intervention RAFCOM - Raccordement haute performance",
-        "title": "Raccordement haute performance"
+        "src": "/chantiers/15.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Saint-Médard-en-Jalles"
       },
       {
-        "src": "/images-clients/16.jpeg",
-        "alt": "Intervention RAFCOM - Solutions télécoms",
-        "title": "Solutions télécommunications complètes"
+        "src": "/chantiers/16.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Parempuyre"
+      },
+      {
+        "src": "/chantiers/17.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Ambarès-et-Lagrave"
+      },
+      {
+        "src": "/chantiers/18.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Carbon-Blanc"
+      },
+      {
+        "src": "/chantiers/19.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Bassens"
+      },
+      {
+        "src": "/chantiers/20.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Sainte-Eulalie"
+      },
+      {
+        "src": "/chantiers/21.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Saint-Louis-de-Montferrand"
+      },
+      {
+        "src": "/chantiers/22.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Montussan"
+      },
+      {
+        "src": "/chantiers/23.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Yvrac"
+      },
+      {
+        "src": "/chantiers/24.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Artigues-près-Bordeaux"
+      },
+      {
+        "src": "/chantiers/25.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Tresses"
+      },
+      {
+        "src": "/chantiers/26.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Fargues-Saint-Hilaire"
+      },
+      {
+        "src": "/chantiers/27.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Pompignac"
+      },
+      {
+        "src": "/chantiers/28.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Sallebœuf"
+      },
+      {
+        "src": "/chantiers/29.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Beychac-et-Caillau"
+      },
+      {
+        "src": "/chantiers/30.jpeg",
+        "alt": "Chantier isolation",
+        "title": "Isolation - Camblanes-et-Meynac"
+      },
+      {
+        "src": "/chantiers/31.jpeg",
+        "alt": "Chantier enduit",
+        "title": "Enduit - Quinsac"
+      },
+      {
+        "src": "/chantiers/32.jpeg",
+        "alt": "Chantier ravalement",
+        "title": "Ravalement - Cambes"
+      },
+      {
+        "src": "/chantiers/33.jpeg",
+        "alt": "Chantier ITE",
+        "title": "ITE - Baurech"
+      },
+      {
+        "src": "/chantiers/34.jpeg",
+        "alt": "Chantier façade",
+        "title": "Façade - Latresne"
       }
     ]
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Parlons de vos besoins en travaux fibre, débouchage de fourreaux, détection de blocages ou urgences fibre en Île-de-France"
+    "subtitle": "Parlons de votre projet d'isolation thermique et façade en Gironde"
   },
   "team": {
     "members": [
       {
-        "name": "R. Hamel",
-        "position": "Fondateur & Spécialiste Fibre Optique",
-        "description": "Spécialisé dans les travaux de fibre optique, j'ai développé une expertise technique pointue dans le débouchage de fourreaux, la détection de points de blocage et les raccordements complexes. Mon expérience me permet d'intervenir rapidement et efficacement sur tous types d'urgences fibre. RAFCOM, c'est la garantie d'un service professionnel et réactif pour tous vos besoins en télécommunications.",
+        "name": "Abdelkrim HAMDI",
+        "position": "Fondateur & Gérant ERTF",
+        "description": "Fort de 4 ans d'expérience en tant que conducteur de travaux en tout corps d'état et façade, j'ai créé ERTF en 2022 pour accompagner particuliers et professionnels dans leurs projets d'isolation thermique et de ravalement. Notre équipe expérimentée garantit des prestations conformes aux normes, avec une garantie décennale et RC pour votre tranquillité.",
         "photo": ""
       }
     ]
   },
   "partners": {
     "logos": [
-      {
-        "src": "/logo/bouygues.png",
-        "alt": "Bouygues Telecom",
-        "name": "Bouygues"
+       {
+        "src": "/logo/SMA_BTP.png",
+        "alt": "SMA BTP",
+        "name": "SMA BTP"
       },
       {
-        "src": "/logo/orange.png",
-        "alt": "Orange",
-        "name": "Orange"
-      },
-      {
-        "src": "/logo/sfr.jpg",
-        "alt": "SFR",
-        "name": "SFR"
+        "src": "/logo/decennale.png",
+        "alt": "Garantie Décennale",
+        "name": "Garantie Décennale"
       },
       {
         "src": "/logo/tmc-partenaire.png",
         "alt": "TMC Partenaire",
-        "name": "TMC"
+        "name": "TMC Partenaire"
       }
     ]
   },

@@ -24,7 +24,7 @@ export const sendClientConfirmationEmail = async (prospectData: EmailData): Prom
   }
   
   try {
-    const logoUrl = 'https://firebasestorage.googleapis.com/v0/b/trouvermonchantier.firebasestorage.app/o/logo.png?alt=media&token=becd91c3-7d25-4ac2-80a9-6a6c796bd021';
+    const logoUrl = 'https://firebasestorage.googleapis.com/v0/b/trouvermonchantier.firebasestorage.app/o/logo.jpeg?alt=media&token=becd91c3-7d25-4ac2-80a9-6a6c796bd021';
     
     const htmlContent = `
     <!DOCTYPE html>

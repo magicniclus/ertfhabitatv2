@@ -14,30 +14,30 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "RAFCOM - Spécialiste Travaux Fibre Optique à Paris",
-  description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection blocages, raccordements complexes et urgences fibre en Île-de-France. Devis gratuit.",
+  title: "ERTF - Isolation Thermique et Façade en Gironde | ITE, ITI, Ravalement",
+  description: "ERTF, spécialiste de l'isolation thermique par l'extérieur (ITE), isolation intérieure (ITI), ravalement de façade, enduit et bardage en Gironde. Devis gratuit. Rayon d'intervention: 150 km.",
   keywords: [
-    "travaux fibre optique Paris",
-    "débouchage fourreaux Paris",
-    "détection point blocage fibre",
-    "raccordement fibre complexe",
-    "urgence fibre optique",
-    "travaux télécommunications Paris",
-    "RAFCOM",
-    "fibre optique Île-de-France",
-    "entrepreneur fibre optique",
-    "devis gratuit fibre",
-    "spécialiste fibre optique",
-    "installation fibre optique",
-    "maintenance fibre optique"
+    "isolation thermique extérieure Gironde",
+    "ITE Bordeaux",
+    "isolation intérieure Le Bouscat",
+    "ravalement façade Gironde",
+    "enduit façade 33",
+    "bardage Bordeaux",
+    "ERTF",
+    "isolation thermique Bordeaux",
+    "rénovation énergétique Gironde",
+    "devis gratuit isolation",
+    "façade Gironde",
+    "travaux isolation Le Bouscat",
+    "ITE Le Bouscat"
   ],
-  author: "RAFCOM",
-  siteUrl: "https://rafcomm.fr",
-  siteName: "RAFCOM - Spécialiste Travaux Fibre Optique",
+  author: "ERTF",
+  siteUrl: "https://ertf-habitat.fr",
+  siteName: "ERTF - Isolation Thermique et Façade",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
-  twitterHandle: "@rafcom"
+  twitterHandle: "@ertf"
 };
 
 export function generateMetadata(
@@ -114,66 +114,60 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "RAFCOM",
-  "legalName": "RAFCOM - Spécialiste Travaux Fibre Optique",
+  "name": "ERTF",
+  "legalName": "ERTF - Isolation Thermique et Façade",
   "url": seoConfig.siteUrl,
-  "logo": `${seoConfig.siteUrl}/logo.png`,
+  "logo": `${seoConfig.siteUrl}/logo.jpeg`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Rafik Hamel"
+    "name": "Abdelkrim HAMDI"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "200 rue de la Croix Nivert",
-    "addressLocality": "Paris",
-    "postalCode": "75015",
-    "addressRegion": "Île-de-France",
+    "streetAddress": "81 Boulevard Pierre 1er",
+    "addressLocality": "Le Bouscat",
+    "postalCode": "33110",
+    "addressRegion": "Nouvelle-Aquitaine",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "0783490136",
+    "telephone": "0783938694",
     "contactType": "customer service",
-    "email": "contact@rafcomm.fr",
+    "email": "ertftravaux@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Île-de-France"
+      "name": "Gironde"
     },
     {
-      "@type": "AdministrativeArea", 
-      "name": "Paris"
-    },
-    {
-      "@type": "City",
-      "name": "Paris 20e"
+      "@type": "City", 
+      "name": "Bordeaux"
     },
     {
       "@type": "City",
-      "name": "Belleville"
+      "name": "Le Bouscat"
     },
     {
-      "@type": "City",
-      "name": "Ménilmontant"
+      "@type": "AdministrativeArea",
+      "name": "Nouvelle-Aquitaine"
     }
   ],
   "serviceType": [
-    "Travaux Fibre Optique",
-    "Débouchage Fourreaux Télécommunications", 
-    "Détection Points de Blocage",
-    "Raccordements Fibre Complexes",
-    "Interventions d'Urgence Fibre",
-    "Installation Fibre Optique",
-    "Maintenance Réseaux Fibre",
-    "Télécommunications",
-    "Expertise Technique Fibre"
+    "Isolation Thermique par l'Extérieur (ITE)",
+    "Isolation Thermique Intérieure (ITI)", 
+    "Ravalement de Façade",
+    "Enduit de Façade",
+    "Bardage",
+    "Rénovation Énergétique",
+    "Travaux de Façade"
   ],
   "priceRange": "€€",
-  "openingHours": "Mo-Sa 08:00-18:00",
+  "openingHours": "Mo-Sa 08:00-19:00",
   "sameAs": [
     `${seoConfig.siteUrl}`,
   ]
@@ -190,62 +184,46 @@ export const servicesSchema = {
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de rénovation",
+    "name": "Services d'isolation thermique et façade",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Peinture et Ravalement",
-          "description": "Spécialisés en peinture générale et ravalement, intérieur et extérieur"
+          "name": "Isolation Thermique par l'Extérieur (ITE)",
+          "description": "Amélioration de la performance énergétique par isolation extérieure"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Électricité et Plomberie",
-          "description": "Installation et rénovation électricité et plomberie, conformes aux normes"
+          "name": "Isolation Thermique Intérieure (ITI)",
+          "description": "Solutions d'isolation intérieure pour confort et économies d'énergie"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Rénovation globale",
-          "description": "Transformations et nettoyage, rénovation complète de vos espaces"
+          "name": "Ravalement de Façade",
+          "description": "Rénovation et embellissement de façades en Gironde"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Cloisons Sèches",
-          "description": "Installation de cloisons sèches et aménagement d'espaces intérieurs"
+          "name": "Enduit de Façade",
+          "description": "Application d'enduits de qualité pour finition parfaite"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Doublages et Isolation",
-          "description": "Doublages et isolation thermique et phonique de vos murs"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
-          "name": "Faux Plafonds",
-          "description": "Installation de faux plafonds et plafonds suspendus avec intégration d'éclairage"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
-          "name": "Finitions Plâtrerie",
-          "description": "Finitions plâtrerie, enduits, lissage et préparation surfaces"
+          "name": "Bardage",
+          "description": "Installation de bardage pour modernisation et protection"
         }
       }
     ]

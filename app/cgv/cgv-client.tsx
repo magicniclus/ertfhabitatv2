@@ -52,10 +52,10 @@ export default function CGVClient() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre 
-                  RAFCOM, SASU (Société par Actions Simplifiée Unipersonnelle), immatriculée au RCS de Paris 
-                  sous le numéro SIRET 991 943 010 00017, dont le siège social est situé 200 rue de la Croix Nivert, 75015 Paris, 
-                  ci-après dénommée « RAFCOM » ou « la Société », et toute personne physique ou morale, 
-                  ci-après dénommée « le Client », souhaitant bénéficier des services de travaux fibre optique proposés.
+                  ERTF, EURL (Entreprise Unipersonnelle à Responsabilité Limitée), dont le siège social est situé 
+                  81 Boulevard Pierre 1er, 33110 Le Bouscat, ci-après dénommée « ERTF » ou « la Société », 
+                  et toute personne physique ou morale, ci-après dénommée « le Client », 
+                  souhaitant bénéficier des services d'isolation thermique et de façade proposés.
                 </p>
                 <p>
                   L'acceptation des présentes CGV est matérialisée par la validation de toute commande ou demande de service. 
@@ -69,17 +69,17 @@ export default function CGVClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 1 - Objet</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  RAFCOM est une entreprise spécialisée dans les travaux de fibre optique et télécommunications. 
+                  ERTF est une entreprise spécialisée dans l'isolation thermique et les travaux de façade. 
                   La Société propose les services suivants :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Installation et maintenance de réseaux fibre optique</li>
-                  <li>Débouchage de fourreaux télécommunications</li>
-                  <li>Détection et localisation de points de blocage</li>
-                  <li>Raccordements fibre optique complexes</li>
-                  <li>Interventions d'urgence fibre 24h/24</li>
+                  <li>Isolation thermique par l'extérieur (ITE)</li>
+                  <li>Isolation thermique intérieure (ITI)</li>
+                  <li>Ravalement de façade</li>
+                  <li>Enduit de façade</li>
+                  <li>Bardage</li>
                   <li>Établissement de devis gratuits et personnalisés</li>
-                  <li>Expertise technique spécialisée en télécommunications</li>
+                  <li>Expertise technique en rénovation énergétique</li>
                 </ul>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function CGVClient() {
                 </p>
                 <p>
                   Le devis est valable 30 jours à compter de sa date d'émission. Passé ce délai, 
-                  RAFCOM se réserve le droit de modifier les prix proposés.
+                  ERTF se réserve le droit de modifier les prix proposés.
                 </p>
                 <p>
                   L'acceptation du devis par le Client, matérialisée par sa signature et le versement de l'acompte éventuel, 
@@ -139,7 +139,7 @@ export default function CGVClient() {
                   d'intempéries exceptionnelles ou de modifications demandées par le Client.
                 </p>
                 <p>
-                  En cas de retard imputable à {config.company.name}, le Client pourra demander l'application de pénalités 
+                  En cas de retard imputable à ERTF, le Client pourra demander l'application de pénalités 
                   de retard fixées à 0,1% du montant TTC des travaux par jour de retard.
                 </p>
               </div>
@@ -158,7 +158,7 @@ export default function CGVClient() {
               
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  {config.company.name} garantit la conformité des travaux réalisés selon les règles de l'art et 
+                  ERTF garantit la conformité des travaux réalisés selon les règles de l'art et 
                   les normes en vigueur. Les garanties légales s'appliquent :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
@@ -167,7 +167,7 @@ export default function CGVClient() {
                   <li><strong>Garantie décennale :</strong> 10 ans pour les éléments d'équipement indissociables</li>
                 </ul>
                 <p>
-                  Tous nos artisans partenaires sont assurés et disposent des garanties légales obligatoires.
+                  ERTF dispose d'une garantie décennale et d'une responsabilité civile professionnelle pour votre tranquillité.
                 </p>
               </div>
             </div>
@@ -177,15 +177,15 @@ export default function CGVClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 6 - Responsabilité</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  {config.company.name} s'engage à mettre en œuvre tous les moyens nécessaires pour assurer 
-                  la bonne exécution des travaux confiés aux artisans partenaires.
+                  ERTF s'engage à mettre en œuvre tous les moyens nécessaires pour assurer 
+                  la bonne exécution des travaux.
                 </p>
                 <p>
-                  La responsabilité de {config.company.name} ne peut être engagée qu'en cas de faute prouvée 
-                  dans la sélection ou le suivi des artisans partenaires.
+                  La responsabilité d'ERTF ne peut être engagée qu'en cas de faute prouvée 
+                  dans l'exécution des travaux.
                 </p>
                 <p>
-                  En aucun cas, {config.company.name} ne pourra être tenue responsable des dommages indirects 
+                  En aucun cas, ERTF ne pourra être tenue responsable des dommages indirects 
                   tels que perte d'exploitation, perte de clientèle, trouble commercial quelconque.
                 </p>
               </div>
@@ -225,7 +225,7 @@ export default function CGVClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 8 - Protection des données personnelles</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  {config.company.name} s'engage à respecter la réglementation en vigueur applicable au traitement 
+                  ERTF s'engage à respecter la réglementation en vigueur applicable au traitement 
                   des données personnelles, notamment le Règlement Général sur la Protection des Données (RGPD).
                 </p>
                 <p>
@@ -235,7 +235,7 @@ export default function CGVClient() {
                 <p>
                   Le Client dispose d'un droit d'accès, de rectification, de suppression et de portabilité 
                   de ses données personnelles qu'il peut exercer en contactant : 
-                  <a href={`mailto:${config.company.email}`} className="text-gray-600 hover:text-gray-800 transition-colors"> {config.company.email}</a>
+                  <a href="mailto:ertftravaux@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors"> ertftravaux@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -250,11 +250,11 @@ export default function CGVClient() {
                 </p>
                 <p>
                   Pour les litiges de consommation, le Client peut recourir gratuitement au service de médiation 
-                  de la consommation dont relève {config.company.name} ou à tout autre médiateur de la consommation.
+                  de la consommation dont relève ERTF ou à tout autre médiateur de la consommation.
                 </p>
                 <p>
                   Les présentes CGV sont soumises au droit français. En cas de litige, 
-                  les tribunaux de Paris seront seuls compétents.
+                  les tribunaux de Bordeaux seront seuls compétents.
                 </p>
               </div>
             </div>
@@ -269,12 +269,12 @@ export default function CGVClient() {
                   les autres stipulations garderont toute leur force et leur portée.
                 </p>
                 <p>
-                  {config.company.name} se réserve le droit de modifier les présentes CGV à tout moment. 
+                  ERTF se réserve le droit de modifier les présentes CGV à tout moment. 
                   Les CGV applicables sont celles en vigueur à la date de la commande.
                 </p>
                 <p>
-                  Pour toute question relative aux présentes CGV, le Client peut contacter {config.company.name} 
-                  à l'adresse suivante : <a href={`mailto:${config.company.email}`} className="text-gray-600 hover:text-gray-800 transition-colors">{config.company.email}</a>
+                  Pour toute question relative aux présentes CGV, le Client peut contacter ERTF 
+                  à l'adresse suivante : <a href="mailto:ertftravaux@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">ertftravaux@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -285,7 +285,7 @@ export default function CGVClient() {
                 <Calendar className="h-5 w-5 text-gray-600" />
                 <span className="text-sm font-semibold text-gray-700">Dernière mise à jour</span>
               </div>
-              <p className="text-gray-600">25 août 2025</p>
+              <p className="text-gray-600">20 janvier 2026</p>
             </div>
           </motion.div>
         </div>

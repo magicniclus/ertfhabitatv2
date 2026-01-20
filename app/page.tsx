@@ -3,36 +3,36 @@ import HomeClient from './home-client';
 
 // Métadonnées SEO pour la page d'accueil
 export const metadata: Metadata = {
-  title: "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France | Devis Gratuit",
-  description: "RAFCOM, spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre. Devis gratuit et intervention rapide.",
-  keywords: "travaux fibre optique, fourreau bouché, détection point blocage, raccordement fibre complexe, urgence fibre, débouchage fourreaux, RAFCOM, fibre optique Île-de-France, devis gratuit",
-  authors: [{ name: "RAFCOM" }],
-  creator: "RAFCOM",
-  publisher: "RAFCOM",
+  title: "ERTF - Isolation Thermique et Façade Gironde | ITE, ITI, Ravalement | Devis Gratuit",
+  description: "ERTF, spécialiste isolation thermique extérieure (ITE), isolation intérieure (ITI), ravalement de façade, enduit et bardage en Gironde. Équipe expérimentée. Devis gratuit.",
+  keywords: "isolation thermique, ITE, ITI, ravalement façade, enduit, bardage, ERTF, isolation Gironde, rénovation énergétique, devis gratuit",
+  authors: [{ name: "ERTF" }],
+  creator: "ERTF",
+  publisher: "ERTF",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France",
-    description: "Spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre. Devis gratuit et intervention rapide.",
+    title: "ERTF - Isolation Thermique et Façade en Gironde",
+    description: "Spécialiste isolation thermique extérieure (ITE), isolation intérieure (ITI), ravalement de façade, enduit et bardage en Gironde. Devis gratuit.",
     type: "website",
     locale: "fr_FR",
-    siteName: "RAFCOM - Spécialiste Fibre Optique",
+    siteName: "ERTF - Isolation et Façade",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France",
+        alt: "ERTF - Isolation Thermique et Façade Gironde",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "RAFCOM - Spécialiste Travaux Fibre Optique",
-    description: "Spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre.",
+    title: "ERTF - Isolation Thermique et Façade",
+    description: "Spécialiste isolation thermique extérieure (ITE), isolation intérieure (ITI), ravalement de façade, enduit et bardage en Gironde.",
     images: ["/og-image.jpg"],
   },
   robots: {

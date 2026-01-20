@@ -23,57 +23,67 @@ export default function HomeClient() {
   
   const servicesData = [
     {
-      title: "Travaux Fibre",
-      subtitle: "Installation et maintenance fibre optique",
-      content: "Installation, maintenance et réparation de réseaux fibre optique. Interventions techniques spécialisées pour particuliers et professionnels en Île-de-France.",
+      title: "Isolation Thermique Extérieure",
+      subtitle: "ITE de qualité",
+      content: "Amélioration de la performance énergétique de votre bâtiment avec notre expertise en isolation thermique par l'extérieur. Matériaux de qualité et conformité aux normes.",
       image: "/prestation-1.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/travaux-fibre"
+      href: "/services/isolation-thermique-exterieure"
     },
     {
-      title: "Fourreau Bouché",
-      subtitle: "Débouchage de fourreaux télécom",
-      content: "Débouchage professionnel de fourreaux télécommunications. Techniques spécialisées pour libérer les conduits obstrués et permettre le passage de la fibre optique.",
+      title: "Isolation Thermique Intérieure",
+      subtitle: "ITI performante",
+      content: "Solutions d'isolation intérieure adaptées à votre logement pour un confort optimal et des économies d'énergie durables.",
       image: "/prestation-2.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/fourreau-bouche"
+      href: "/services/isolation-thermique-interieure"
     },
     {
-      title: "Détection de Point de Blocage",
-      subtitle: "Localisation précise des obstructions",
-      content: "Détection et localisation précise des points de blocage dans les réseaux de télécommunications. Diagnostic technique avancé pour identifier les problèmes.",
+      title: "Ravalement de Façade",
+      subtitle: "Embellissement et protection",
+      content: "Rénovation et embellissement de vos façades avec des techniques professionnelles. Enduits, badigeon et solutions sur mesure.",
       image: "/prestation-3.jpeg",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/detection-blocage"
+      href: "/services/ravalement"
     },
     {
-      title: "Raccordement Fibre Complexe",
-      subtitle: "Solutions techniques avancées",
-      content: "Raccordements fibre optique complexes et techniques. Expertise pour les installations difficiles nécessitant des compétences spécialisées.",
-      image: "/prestation-4.jpeg",
+      title: "Enduit de Façade",
+      subtitle: "Finition et esthétique",
+      content: "Application d'enduits de qualité pour une finition parfaite de vos façades, alliant durabilité et esthétique.",
+      image: "/prestation-4.png",
       gradientFrom: "#e74c3c",
       gradientTo: "#f39c12",
-      href: "/services/raccordement-complexe"
+      href: "/services/enduit-facade"
     },
     {
-      title: "Urgence Fibre",
-      subtitle: "Intervention rapide 24h/24",
-      content: "Interventions d'urgence fibre optique. Service réactif pour résoudre rapidement vos pannes et problèmes de connexion fibre.",
+      title: "Bardage",
+      subtitle: "Modernisation et protection",
+      content: "Installation de bardage pour moderniser votre façade tout en assurant une protection optimale contre les intempéries.",
       image: "/prestation-5.jpeg",
       gradientFrom: "#3498db",
       gradientTo: "#2980b9",
-      href: "/services/urgence-fibre"
+      href: "/services/bardage"
+    },
+    {
+      title: "Votre Projet",
+      subtitle: "Demandez votre devis",
+      content: "Vous avez un projet d'isolation ou de façade ? Contactez-nous pour un devis personnalisé et gratuit adapté à vos besoins.",
+      image: "",
+      gradientFrom: "#ff6b35",
+      gradientTo: "#f7931e",
+      href: "#contact"
     }
   ];
 
   const contactInfo = {
-    address: "Île-de-France + rayon 70km",
-    phone: "07 83 49 01 36",
-    email: "contact@rafcomm.fr",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Île-de-France&t=&z=9&ie=UTF8&iwloc=&output=embed"
+    address: "81 Boulevard Pierre 1er\n33110 Le Bouscat\nRayon d'intervention: 150 km",
+    phone: "07 83 93 86 94",
+    email: "ertftravaux@gmail.com",
+    hours: "Lundi - Samedi: 8h00 - 19h00",
+    mapEmbedUrl: "https://maps.google.com/maps?q=81+Boulevard+Pierre+1er,+33110+Le+Bouscat&t=&z=15&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -93,9 +103,11 @@ export default function HomeClient() {
       />
       
       <Hero config={config.hero} />
-       {/* Utilisation de la variable d'environnement pour le Place ID */}
-      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "ChIJ4UHYQun5IQ0RHMOUXfFEiDE"} />
+      
+      {/* Partenaires - Ils nous font confiance */}
       <LogoCarousel config={config.partners} speed={30} />
+      
+      {/* Notre Expertise */}
       <AboutSection
         id="expertise"
         smallTitle={config.about.sections[0].smallTitle}
@@ -109,8 +121,22 @@ export default function HomeClient() {
         buttonHref={config.about.sections[0].buttonHref}
         reversed={config.about.sections[0].reversed}
       />
-      <ServicesSection id="services" cards={servicesData} />
-      <ProjectGallery id="realisations" config={config.gallery} />
+      
+      {/* Nos Services */}
+      <ServicesSection 
+        id="services" 
+        title="Nos Services"
+        subtitle="Découvrez notre gamme complète de prestations"
+        cards={servicesData} 
+      />
+      
+      {/* Nos Réalisations */}
+      <ProjectGallery 
+        id="realisations" 
+        config={config.gallery} 
+      />
+      
+      {/* Nos Spécialités */}
       <AboutSection
         smallTitle={config.about.sections[1].smallTitle}
         title={config.about.sections[1].title}
@@ -123,10 +149,13 @@ export default function HomeClient() {
         buttonHref={config.about.sections[1].buttonHref}
         reversed={config.about.sections[1].reversed}
       />
+
       <TeamSection config={config.team} />
+      
+      {/* Contactez-nous */}
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de vos besoins en travaux fibre, débouchage de fourreaux, détection de blocages ou urgences fibre en Île-de-France"
+        subtitle="Parlons de votre projet d'isolation thermique et façade en Gironde"
         contactInfo={contactInfo} 
       />
       {/* Exit Intent Popup */}

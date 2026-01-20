@@ -68,11 +68,11 @@ export default function ContactClient() {
   };
 
   const contactInfo = {
-    address: "200 rue de la Croix Nivert\nParis 75015",
-    phone: "07 83 49 01 36",
-    email: "contact@rafcomm.fr",
-    hours: "Lundi - Samedi: 8h00 - 18h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=200+rue+de+la+Croix+Nivert,+Paris+75015&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    address: "81 Boulevard Pierre 1er\n33110 Le Bouscat",
+    phone: "07 83 93 86 94",
+    email: "ertftravaux@gmail.com",
+    hours: "Lundi - Samedi: 8h00 - 19h00",
+    mapEmbedUrl: "https://maps.google.com/maps?q=81+Boulevard+Pierre+1er,+33110+Le+Bouscat&t=&z=15&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -93,7 +93,7 @@ export default function ContactClient() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de travaux fibre optique ? Notre équipe RAFCOM est là pour vous accompagner dans tous vos besoins en télécommunications et fibre optique.
+              Un projet d'isolation thermique ou de façade ? Notre équipe ERTF est là pour vous accompagner dans tous vos besoins en rénovation énergétique et embellissement de façades.
             </p>
           </motion.div>
         </div>
@@ -211,11 +211,11 @@ export default function ContactClient() {
                         className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-200 appearance-none bg-white"
                       >
                         <option value="">Sélectionnez votre projet</option>
-                        <option value="Travaux Fibre Optique">Travaux Fibre Optique</option>
-                        <option value="Fourreau Bouché">Fourreau Bouché</option>
-                        <option value="Détection Point de Blocage">Détection Point de Blocage</option>
-                        <option value="Raccordement Fibre Complexe">Raccordement Fibre Complexe</option>
-                        <option value="Urgence Fibre">Urgence Fibre</option>
+                        <option value="Isolation Thermique Extérieure">Isolation Thermique Extérieure</option>
+                        <option value="Isolation Thermique Intérieure">Isolation Thermique Intérieure</option>
+                        <option value="Ravalement de Façade">Ravalement de Façade</option>
+                        <option value="Enduit de Façade">Enduit de Façade</option>
+                        <option value="Bardage">Bardage</option>
                         <option value="Devis Général">Devis Général</option>
                         <option value="Autre">Autre</option>
                       </select>
@@ -274,7 +274,7 @@ export default function ContactClient() {
                       <MapPin className="h-6 w-6 text-gray-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Adresse</h4>
+                      <h4 className="font-semibold text-gray-900 mb-1">Zone d'intervention</h4>
                       <p className="text-gray-600 leading-relaxed whitespace-pre-line">{contactInfo.address}</p>
                     </div>
                   </div>
