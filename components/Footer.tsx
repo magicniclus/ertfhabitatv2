@@ -33,8 +33,11 @@ export default function Footer() {
     { name: 'Mérignac', href: '/ville/merignac' },
     { name: 'Pessac', href: '/ville/pessac' },
     { name: 'Talence', href: '/ville/talence' },
-    { name: 'Gironde (33)', href: '#contact' },
-    { name: 'Rayon de 150 km', href: '#contact' },
+    { name: 'Villenave-d\'Ornon', href: '/ville/villenave-d-ornon' },
+    { name: 'Gradignan', href: '/ville/gradignan' },
+    { name: 'Bègles', href: '/ville/begles' },
+    { name: 'Floirac', href: '/ville/floirac' },
+    { name: 'Cenon', href: '/ville/cenon' },
   ];
 
   return (

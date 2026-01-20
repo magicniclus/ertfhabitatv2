@@ -18,19 +18,21 @@ const merignacConfig = {
   location: "Mérignac et environs",
   
   // Description détaillée
-  mainDescription: "ERTF est votre entreprise de référence pour l'isolation thermique et les travaux de façade à Mérignac. Basés au Bouscat, nous intervenons rapidement sur toute la commune de Mérignac pour vos projets d'isolation thermique par l'extérieur (ITE), isolation intérieure (ITI), ravalement de façade, enduit et bardage. Notre équipe de 2 à 5 professionnels expérimentés connaît parfaitement les spécificités des bâtiments mérignacais et vous accompagne avec une garantie décennale et RC professionnelle. Forte de 4 ans d'expérience en conduite de travaux, ERTF garantit des prestations conformes aux normes en vigueur.",
+  mainDescription: "Mérignac, géante de la métropole bordelaise avec ses 70 000 habitants, présente un visage urbain unique qui défie toute catégorisation simple. Deuxième ville de Gironde, elle s'étend sur 4 800 hectares et abrite des réalités immobilières radicalement différentes : le quartier d'affaires du Burck avec ses immeubles de bureaux années 80, les zones pavillonnaires résidentielles d'Arlac et Beaudésert, les grands ensembles de Yser et Capeyron, les lotissements récents de Chemin Long, sans oublier l'aéroport Bordeaux-Mérignac qui génère nuisances sonores et contraintes spécifiques. Cette diversité fait de Mérignac un laboratoire de la rénovation énergétique : nous y croisons tous les défis du bâtiment contemporain. Les copropriétés du centre-ville (avenue de la Libération, rue Pasteur) datent des années 60-70 et cumulent isolation défaillante et chauffage collectif obsolète. Les pavillons d'Arlac, construits dans les années 80-90, souffrent d'une isolation aux normes de l'époque (R=2) totalement insuffisante aujourd'hui. Le secteur de l'aéroport impose des contraintes acoustiques strictes : double vitrage renforcé obligatoire, isolation phonique des façades. ERTF intervient sur toute cette mosaïque urbaine avec une expertise adaptée à chaque contexte. Depuis Le Bouscat, nous sommes à 10 minutes de n'importe quel point de Mérignac. Notre expérience mérignacaise : 80+ chantiers réalisés, de la villa individuelle à la copropriété de 50 logements.",
   
   // Structure SEO optimisée
   problemSection: {
-    title: "Pourquoi Rénover à Mérignac ?",
-    description: "Mérignac, deuxième ville de la métropole bordelaise, compte de nombreux quartiers résidentiels nécessitant une rénovation énergétique pour améliorer le confort et réduire les factures.",
+    title: "Mérignac : Ville Aéroportuaire, Défis Multiples en Rénovation Énergétique",
+    description: "Mérignac cumule les spécificités qui en font un cas d'école en rénovation énergétique. Avec 70 000 habitants répartis sur 4 800 hectares, c'est une ville-archipel où cohabitent habitat pavillonnaire (Arlac, Beaudésert, Capeyron), grands ensembles (Yser, Bourranville), zones d'activités (Burck, Aéroparc) et secteurs soumis aux nuisances aéroportuaires. L'aéroport Bordeaux-Mérignac, avec 7,5 millions de passagers/an, impose un Plan d'Exposition au Bruit (PEB) qui classe 15 000 logements en zones A, B ou C. Ces logements bénéficient d'aides spécifiques pour isolation phonique mais doivent respecter des normes strictes : double vitrage acoustique 10/16/4, isolation façades avec performance acoustique Rw≥45dB. Les copropriétés du centre-ville (avenue de la Libération, rue Pasteur, place Charles de Gaulle) datent massivement des années 60-70 : bâtiments en béton de 4-5 étages, chauffage collectif fuel ou gaz, isolation inexistante, DPE E/F/G pour 80% d'entre elles. Les lotissements pavillonnaires d'Arlac et Beaudésert, construits dans les années 80-90, présentent une isolation aux normes de l'époque (R=2 à 2,5) devenue obsolète : factures de chauffage 2000-2500€/an pour 120m². Particularité mérignacaise : forte présence de maisons mitoyennes en bande nécessitant coordination entre voisins pour ITE.",
     problems: [
-      "Maisons et immeubles mal isolés",
-      "Façades dégradées par le temps",
-      "Factures de chauffage élevées",
-      "Inconfort thermique",
-      "Humidité et infiltrations",
-      "Besoin de valorisation immobilière"
+      "Zone aéroportuaire PEB : 15 000 logements soumis nuisances sonores, obligation isolation phonique renforcée (Rw≥45dB), coût supplémentaire 30% vs isolation standard",
+      "Copropriétés centre-ville années 60-70 : avenue Libération, rue Pasteur, 80% classées E/F/G, chauffage collectif fuel obsolète, charges 2200€/an pour T3",
+      "Pavillons Arlac/Beaudésert années 80-90 : isolation R=2 obsolète, simple vitrage PVC dégradé, consommation 280 kWh/m²/an, factures 2300€/an pour 120m²",
+      "Maisons mitoyennes en bande : 40% du parc pavillonnaire, nécessité coordination voisins pour ITE, risques conflits copropriété, solutions ITI souvent privilégiées",
+      "Grands ensembles Yser/Bourranville : barres HLM années 60, isolation inexistante, humidité chronique, moisissures, précarité énergétique des locataires",
+      "Zone Burck tertiaire : immeubles bureaux années 80 vitrés, surchauffe estivale, climatisation énergivore, obligation rénovation tertiaire décret 2019",
+      "Lotissements récents Chemin Long : maisons 2000-2010 RT2000/RT2005, isolation juste conforme, déjà insuffisante pour RE2020, anticipation nécessaire",
+      "Pollution sonore aéroport : stress habitants, dévalorisation immobilière secteurs exposés (-15 à -25%), difficultés revente, nécessité compensation par performances énergétiques"
     ]
   },
   

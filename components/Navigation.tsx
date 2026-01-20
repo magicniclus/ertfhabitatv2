@@ -42,11 +42,11 @@ export default function Navigation() {
     { name: 'Mérignac', href: '/ville/merignac' },
     { name: 'Pessac', href: '/ville/pessac' },
     { name: 'Talence', href: '/ville/talence' },
-    { name: 'Villenave-d\'Ornon', href: '#contact' },
-    { name: 'Gradignan', href: '#contact' },
-    { name: 'Bègles', href: '#contact' },
-    { name: 'Floirac', href: '#contact' },
-    { name: 'Cenon', href: '#contact' },
+    { name: 'Villenave-d\'Ornon', href: '/ville/villenave-d-ornon' },
+    { name: 'Gradignan', href: '/ville/gradignan' },
+    { name: 'Bègles', href: '/ville/begles' },
+    { name: 'Floirac', href: '/ville/floirac' },
+    { name: 'Cenon', href: '/ville/cenon' },
   ];
 
   // Navigation adaptative selon la page
