@@ -7,12 +7,14 @@ import { Button } from '@/components/ui/button';
 import { useEffect } from 'react';
 
 export default function MerciClient() {
-  // Déclencher l'événement de conversion Google Analytics
+  // Déclencher l'événement de conversion Google Ads
   useEffect(() => {
     // Vérifier que gtag est disponible
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-17681257962/R5TgCI_W68cbEOqriu9B'
+        'send_to': 'AW-17654607222/Ol_fCL-vwLEbEPbar-JB',
+        'value': 1.0,
+        'currency': 'EUR'
       });
     }
   }, []);
