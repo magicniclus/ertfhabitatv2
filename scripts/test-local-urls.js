@@ -65,8 +65,8 @@ async function testLocalUrls() {
   
   console.log('\n✅ Test terminé!');
   console.log('\n🌐 URLs de production:');
-  console.log('- Sitemap: https://rafcomm.fr/sitemap.xml');
-  console.log('- Robots: https://rafcomm.fr/robots.txt');
+  console.log('- Sitemap: https://ertfhabitat.fr/sitemap.xml');
+  console.log('- Robots: https://ertfhabitat.fr/robots.txt');
 }
 
 testLocalUrls().catch(console.error);

@@ -150,7 +150,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "RAFCOM",
+      "name": "ERTF Habitat",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {

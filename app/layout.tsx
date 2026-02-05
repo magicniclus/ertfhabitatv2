@@ -5,32 +5,32 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris | Urgence Fibre 24h/24",
-  description: "RAFCOM, spécialiste des travaux fibre optique en Île-de-France : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre. Intervention rapide Paris 75015.",
-  keywords: "travaux fibre optique Paris, fourreau bouché Paris, détection point blocage fibre, raccordement fibre complexe, urgence fibre Paris, débouchage fourreaux télécom, RAFCOM, fibre optique 75015, entrepreneur fibre optique",
-  authors: [{ name: "RAFCOM" }],
-  creator: "RAFCOM",
-  publisher: "RAFCOM",
+  title: "ERTF Habitat - Spécialiste Isolation Thermique Bordeaux Gironde | ITE & ITI",
+  description: "ERTF Habitat, spécialiste de l'isolation thermique intérieure et extérieure en Gironde : ITE, ITI, ravalement de façade, enduit. Intervention rapide région Bordelaise.",
+  keywords: "isolation thermique Bordeaux, ITE Gironde, isolation extérieure Bordeaux, isolation intérieure Gironde, ravalement façade Bordeaux, ERTF Habitat, isolation 33, entrepreneur isolation Bordeaux",
+  authors: [{ name: "ERTF Habitat" }],
+  creator: "ERTF Habitat",
+  publisher: "ERTF Habitat",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://rafcomm.fr"),
+  metadataBase: new URL("https://ertfhabitat.fr"),
   alternates: {
-    canonical: "https://rafcomm.fr",
+    canonical: "https://ertfhabitat.fr",
   },
   openGraph: {
-    title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
-    description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
-    url: "https://rafcomm.fr",
-    siteName: "RAFCOM - Spécialiste Fibre Optique",
+    title: "ERTF Habitat - Spécialiste Isolation Thermique Bordeaux",
+    description: "ERTF Habitat, spécialiste de l'isolation thermique intérieure et extérieure : ITE, ITI, ravalement de façade, enduit en Gironde et région Bordelaise.",
+    url: "https://ertfhabitat.fr",
+    siteName: "ERTF Habitat - Spécialiste Isolation Thermique",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
+        alt: "ERTF Habitat - Spécialiste Isolation Thermique Bordeaux",
       },
     ],
     locale: "fr_FR",
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "RAFCOM - Spécialiste Fibre Optique",
-    description: "Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
+    title: "ERTF Habitat - Spécialiste Isolation Thermique",
+    description: "Spécialiste de l'isolation thermique intérieure et extérieure : ITE, ITI, ravalement de façade, enduit en Gironde et région Bordelaise.",
     images: ["/og-image.jpg"],
   },
   robots: {

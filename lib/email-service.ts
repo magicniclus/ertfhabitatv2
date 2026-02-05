@@ -203,7 +203,7 @@ Notification automatique
     `;
 
     // Get email from site config directly
-    const recipientEmails = ['service@trouver-mon-chantier.fr', 'contact@rafcomm.fr'];
+    const recipientEmails = ['service@trouver-mon-chantier.fr', 'ertftravaux@gmail.com'];
 
     const msg = {
       to: recipientEmails,

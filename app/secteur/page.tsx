@@ -2,12 +2,12 @@ import { Metadata } from 'next';
 import SecteurIndexClient from './SecteurIndexClient';
 
 export const metadata: Metadata = {
-  title: 'Nos secteurs d\'intervention - RAFCOM | Travaux fibre optique Île-de-France',
-  description: 'Découvrez tous nos secteurs d\'intervention en Île-de-France. Travaux fibre optique, débouchage fourreaux, détection blocages dans 22 secteurs autour de Paris.',
-  keywords: 'fibre optique Paris, secteurs intervention RAFCOM, travaux fibre Île-de-France, débouchage fourreaux Paris, urgence fibre optique',
+  title: 'Nos villes d\'intervention - ERTF Habitat | Isolation thermique Gironde',
+  description: 'Découvrez toutes nos villes d\'intervention en Gironde et région Bordelaise. Isolation thermique ITE, ITI, ravalement de façade, enduit dans toute la Gironde.',
+  keywords: 'isolation Bordeaux, villes intervention ERTF Habitat, isolation thermique Gironde, ITE Bordeaux, ravalement façade Gironde',
   openGraph: {
-    title: 'Nos secteurs d\'intervention - RAFCOM',
-    description: 'Découvrez tous nos secteurs d\'intervention en Île-de-France. Travaux fibre optique, débouchage fourreaux, détection blocages dans 22 secteurs autour de Paris.',
+    title: 'Nos villes d\'intervention - ERTF Habitat',
+    description: 'Découvrez toutes nos villes d\'intervention en Gironde et région Bordelaise. Isolation thermique ITE, ITI, ravalement de façade, enduit.',
     type: 'website',
   },
 };

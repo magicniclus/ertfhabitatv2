@@ -9,7 +9,7 @@ const path = require('path');
 
 // Configuration manuelle (copie de seo-config.ts)
 const seoConfig = {
-  siteUrl: "https://rafcomm.fr"
+  siteUrl: "https://ertfhabitat.fr"
 };
 
 // Fonction simulée du sitemap
@@ -105,10 +105,10 @@ async function checkSitemapContent() {
     // Vérifications
     console.log('🔍 Vérifications:');
     
-    const hasHomepage = sitemap.some(entry => entry.url === 'https://rafcomm.fr');
+    const hasHomepage = sitemap.some(entry => entry.url === 'https://ertfhabitat.fr');
     console.log(`${hasHomepage ? '✅' : '❌'} Page d'accueil présente`);
     
-    const hasContact = sitemap.some(entry => entry.url === 'https://rafcomm.fr/contact');
+    const hasContact = sitemap.some(entry => entry.url === 'https://ertfhabitat.fr/contact');
     console.log(`${hasContact ? '✅' : '❌'} Page contact présente`);
     
     const fiberSectorsCount = sitemap.filter(entry => entry.url.includes('/secteur/fibre-')).length;
@@ -117,7 +117,7 @@ async function checkSitemapContent() {
     const servicesCount = sitemap.filter(entry => entry.url.includes('/services/')).length;
     console.log(`${servicesCount > 0 ? '✅' : '❌'} Pages services: ${servicesCount}`);
     
-    const correctDomain = sitemap.every(entry => entry.url.startsWith('https://rafcomm.fr'));
+    const correctDomain = sitemap.every(entry => entry.url.startsWith('https://ertfhabitat.fr'));
     console.log(`${correctDomain ? '✅' : '❌'} Toutes les URLs utilisent le bon domaine`);
     
     console.log('\n✅ Vérification terminée!');

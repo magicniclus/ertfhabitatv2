@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('🔍 Validation complète SEO - RAFCOMM\n');
+console.log('🔍 Validation complète SEO - ERTF Habitat\n');
 
 // 1. Vérifier la configuration SEO
 console.log('📋 1. Configuration SEO');
@@ -16,8 +16,8 @@ try {
   const seoConfigPath = path.join(process.cwd(), 'lib', 'seo-config.ts');
   const seoConfig = fs.readFileSync(seoConfigPath, 'utf8');
   
-  const correctDomain = seoConfig.includes('siteUrl: "https://rafcomm.fr"');
-  console.log(`${correctDomain ? '✅' : '❌'} Domaine correct: https://rafcomm.fr`);
+  const correctDomain = seoConfig.includes('siteUrl: "https://ertfhabitat.fr"') || seoConfig.includes('siteUrl: "https://ertf-habitat.fr"');
+  console.log(`${correctDomain ? '✅' : '❌'} Domaine correct: https://ertfhabitat.fr`);
   
   const hasTitle = seoConfig.includes('title:');
   console.log(`${hasTitle ? '✅' : '❌'} Titre configuré`);
@@ -121,9 +121,9 @@ console.log('');
 console.log('📊 Résumé');
 const totalExpectedPages = 3 + secteurCount + servicesCount + 3; // principales + secteurs + services + légales
 console.log(`📄 Total pages attendues: ${totalExpectedPages}`);
-console.log(`🌐 Domaine: https://rafcomm.fr`);
-console.log(`📍 Sitemap: https://rafcomm.fr/sitemap.xml`);
-console.log(`🤖 Robots: https://rafcomm.fr/robots.txt`);
+console.log(`🌐 Domaine: https://ertfhabitat.fr`);
+console.log(`📍 Sitemap: https://ertfhabitat.fr/sitemap.xml`);
+console.log(`🤖 Robots: https://ertfhabitat.fr/robots.txt`);
 
 console.log('\n✅ Validation terminée!');
 console.log('\n🚀 Pour déployer:');

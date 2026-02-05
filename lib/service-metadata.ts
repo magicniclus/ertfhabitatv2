@@ -8,16 +8,16 @@ export function generateServiceMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
-  const title = `${serviceName} ${location} - RAFCOM | Devis Gratuit`;
-  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez RAFCOM.`;
+  const title = `${serviceName} ${location} - ERTF Habitat | Devis Gratuit`;
+  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez ERTF Habitat.`;
 
   return {
     title,
     description: metaDescription,
-    keywords: [...keywords, 'devis gratuit', 'RAFCOM', location].join(', '),
-    authors: [{ name: 'RAFCOM' }],
-    creator: 'RAFCOM',
-    publisher: 'RAFCOM',
+    keywords: [...keywords, 'devis gratuit', 'ERTF Habitat', location].join(', '),
+    authors: [{ name: 'ERTF Habitat' }],
+    creator: 'ERTF Habitat',
+    publisher: 'ERTF Habitat',
     formatDetection: {
       email: false,
       address: false,

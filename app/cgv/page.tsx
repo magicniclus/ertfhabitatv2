@@ -3,18 +3,18 @@ import CGVClient from './cgv-client';
 
 // Métadonnées SEO pour la page CGV
 export const metadata: Metadata = {
-  title: "Conditions Générales de Vente - Bati France | CGV Rénovation",
-  description: "Consultez les Conditions Générales de Vente de Bati France pour vos travaux de rénovation : peinture, ravalement, électricité, plomberie, rénovation globale à Paris. Garanties et modalités de service.",
-  keywords: "CGV Bati France, conditions générales vente rénovation, garantie travaux Paris, modalités service rénovation, CGV artisan rénovation",
-  authors: [{ name: "Bati France" }],
-  creator: "Bati France",
-  publisher: "Bati France",
+  title: "Conditions Générales de Vente - ERTF Habitat | CGV Isolation",
+  description: "Consultez les Conditions Générales de Vente d'ERTF Habitat pour vos travaux d'isolation thermique : ITE, ITI, ravalement, enduit, bardage en Gironde. Garanties et modalités de service.",
+  keywords: "CGV ERTF Habitat, conditions générales vente isolation, garantie travaux Bordeaux, modalités service isolation, CGV artisan isolation",
+  authors: [{ name: "ERTF Habitat" }],
+  creator: "ERTF Habitat",
+  publisher: "ERTF Habitat",
   openGraph: {
-    title: "CGV Bati France - Conditions Générales de Vente",
-    description: "Conditions Générales de Vente pour vos travaux de rénovation à Paris et Île-de-France.",
+    title: "CGV ERTF Habitat - Conditions Générales de Vente",
+    description: "Conditions Générales de Vente pour vos travaux d'isolation thermique en Gironde.",
     type: "website",
     locale: "fr_FR",
-    siteName: "Bati France - Spécialistes en Rénovation",
+    siteName: "ERTF Habitat - Spécialiste Isolation Thermique",
   },
   robots: {
     index: true,

@@ -3,23 +3,23 @@ import ContactClient from './contact-client';
 
 // Métadonnées SEO pour la page contact
 export const metadata: Metadata = {
-  title: "Contact - RAFCOM | Devis Gratuit Travaux Fibre Optique Paris",
-  description: "Contactez RAFCOM pour vos travaux fibre optique : débouchage fourreaux, détection blocages, raccordements complexes et urgences fibre en Île-de-France. Devis gratuit et personnalisé.",
-  keywords: "contact RAFCOM, devis gratuit fibre optique, contact spécialiste fibre Paris, devis débouchage fourreaux, contact urgence fibre, travaux fibre contact",
-  authors: [{ name: "RAFCOM" }],
-  creator: "RAFCOM",
-  publisher: "RAFCOM",
+  title: "Contact - ERTF Habitat | Devis Gratuit Isolation Thermique Bordeaux",
+  description: "Contactez ERTF Habitat pour vos travaux d'isolation thermique : ITE, ITI, ravalement de façade, enduit en Gironde. Devis gratuit et personnalisé.",
+  keywords: "contact ERTF Habitat, devis gratuit isolation Bordeaux, contact spécialiste isolation Gironde, devis ITE Bordeaux, contact isolation thermique, travaux isolation contact",
+  authors: [{ name: "ERTF Habitat" }],
+  creator: "ERTF Habitat",
+  publisher: "ERTF Habitat",
   openGraph: {
-    title: "Contact RAFCOM - Devis Gratuit Travaux Fibre Optique Paris",
-    description: "Contactez nos experts en travaux fibre optique pour votre projet. Devis gratuit et personnalisé en Île-de-France.",
+    title: "Contact ERTF Habitat - Devis Gratuit Isolation Thermique Bordeaux",
+    description: "Contactez nos experts en isolation thermique pour votre projet. Devis gratuit et personnalisé en Gironde.",
     type: "website",
     locale: "fr_FR",
-    siteName: "RAFCOM - Spécialiste Travaux Fibre Optique",
+    siteName: "ERTF Habitat - Spécialiste Isolation Thermique",
   },
   twitter: {
     card: "summary",
-    title: "Contact RAFCOM - Devis Gratuit Fibre Optique",
-    description: "Contactez nos experts en travaux fibre optique pour votre projet en Île-de-France.",
+    title: "Contact ERTF Habitat - Devis Gratuit Isolation Thermique",
+    description: "Contactez nos experts en isolation thermique pour votre projet en Gironde.",
   },
   robots: {
     index: true,

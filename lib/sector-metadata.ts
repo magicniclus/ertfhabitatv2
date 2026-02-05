@@ -7,19 +7,19 @@ export function generateSectorMetadata(
   keywords: string[]
 ): Metadata {
   return {
-    title: `Travaux Fibre ${location} – RAFCOM | Devis Gratuit`,
+    title: `Isolation Thermique ${location} – ERTF Habitat | Devis Gratuit`,
     description: description,
     keywords: keywords.join(', '),
     openGraph: {
-      title: `Travaux Fibre ${location} – RAFCOM`,
+      title: `Isolation Thermique ${location} – ERTF Habitat`,
       description: description,
       type: 'website',
       locale: 'fr_FR',
-      siteName: 'RAFCOM - Spécialiste Fibre Optique',
+      siteName: 'ERTF Habitat - Spécialiste Isolation Thermique',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Travaux Fibre ${location} – RAFCOM`,
+      title: `Isolation Thermique ${location} – ERTF Habitat`,
       description: description,
     },
     robots: {
@@ -34,7 +34,7 @@ export function generateSectorMetadata(
       },
     },
     alternates: {
-      canonical: `https://rafcomm.fr/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
+      canonical: `https://ertfhabitat.fr/ville/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
     },
   };
 }

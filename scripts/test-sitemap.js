@@ -35,8 +35,8 @@ try {
   }
   
   console.log('\n🌐 URLs disponibles après déploiement:');
-  console.log('- Sitemap: https://rafcomm.fr/sitemap.xml');
-  console.log('- Robots: https://rafcomm.fr/robots.txt');
+  console.log('- Sitemap: https://ertfhabitat.fr/sitemap.xml');
+  console.log('- Robots: https://ertfhabitat.fr/robots.txt');
   
   console.log('\n✅ Test terminé avec succès!');
   
